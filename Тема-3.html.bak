@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Основные компоненты компьютера и их функции, Компьютер, Разобьем части компьютера на четыре основные группы:, Устройства ввода информации, Устройства вывода информации, Основные внутренние компоненты компьютера, Основные внешние устройства компьютера">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Тема 3</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Тема-3.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+   
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Тема 3">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-sticky u-sticky-b1a9 u-header" id="sec-fa6b"><div class="u-clearfix u-sheet u-sheet-1">
+        <a  class="u-image u-logo u-image-1">
+          <img  class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Главная.html" style="padding: 10px 0px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Контакты.html" style="padding: 10px 0px;">Контакты</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-1.html" style="padding: 10px 0px;">Тема 1</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-2.html" style="padding: 10px 0px;">Тема 2</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-3.html" style="padding: 10px 0px;">Тема 3</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Практические-задания.html" style="padding: 10px 0px;">Практические задания</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html" style="padding: 10px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Контакты.html" style="padding: 10px 20px;">Контакты</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-1.html" style="padding: 10px 20px;">Тема 1</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-2.html" style="padding: 10px 20px;">Тема 2</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-3.html" style="padding: 10px 20px;">Тема 3</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Практические-задания.html" style="padding: 10px 20px;">Практические задания</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256" data-image-height="256" id="sec-f35a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"><b>Основные компоненты компьютера и их функции</b>
+        </h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          <span style="font-size: 1.5rem;">Современный
+человек не может представить свою жизнь без компьютера. Компьютер используют и
+взрослые, и дети, для работы и развлечения.</span>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-2" id="sec-fe64">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Компьютер</h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.5rem;">Компьютер — универсальная машина для работы с информацией.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Слово «универсальная» подчёркивает, что компьютер может применяться для многих целей: обрабатывать, хранить и передавать самую разнообразную информацию, использоваться в самых разных видах человеческой деятельности.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Но что бы ни делал человек с помощью компьютера, это всегда работа с информацией — числами, текстами, звуками или изображениями.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Самую разнообразную информацию, представленную в форме, пригодной для обработки компьютером, называют данными. Обработку данных компьютер осуществляет с помощью установленных на нём программ.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Компьютерная программа — набор расположенных поэтапно команд, позволяющих компьютеру выполнить поставленную задачу. Вспомним составные части компьютера:</span>
+          </p>
+        </div>
+        <img class="u-image u-image-default u-image-1" src="images/11.jpg" alt="" data-image-width="960" data-image-height="720">
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-3" id="sec-46d6">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Разобьем части компьютера на четыре основные группы:</h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <span style="text-decoration: underline;">Системный блок</span> — основная часть компьютера, где происходят все вычислительные процессы. Системный блок достаточно сложен и состоит из различных компонентов.
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <span style="text-decoration: underline;">Средства манипуляции</span>: клавиатура, мышь, игровой джойстик. Все те устройства, с помощью которых мы указываем компьютеру что делать, какие вычислительные процессы запускать в настоящий момент.
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <span style="text-decoration: underline;">Средства отображения</span> — это, прежде всего, монитор. Вся информация о работе компьютера выводится именно на монитор. Монитор позволяет отслеживать, что происходит в компьютере в данное время, каким вычислительным процессом занят компьютер.
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <span style="text-decoration: underline;">Периферийные устройства</span> — устройство конструктивно отделённые от системного блока. Устройства, имеющие собственное управление и работающие по командам системного блока. Служат для внешней обработки данных. К периферийным устройствам можно отнести принтеры, сканеры, модемы, внешние запоминающие устройства.
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Так же части компьютера можно разделить на <span style="text-decoration: underline;">устройства ввода</span> и <span style="text-decoration: underline;">вывода</span> информации.
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-4" id="sec-807a">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Устройства ввода информации</h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.5rem;">Это устройства, которые преобразуют информацию из формы, понятной человеку, в форму, понятную компьютеру.К таким устройствам относятся:</span>
+          </p>
+          <ul>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Клавиатура</span>
+            </li>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Координатные устройства:
+o Мышь
+o Трекбол
+o Сенсорная панель
+o Графический планшет</span>
+            </li>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Сканер</span>
+            </li>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Цифровые камеры</span>
+            </li>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Микрофон</span>
+            </li>
+            <li style="font-size: 1.5rem;">
+              <span style="font-weight: 700;">Джойстик</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-5" id="carousel_232d">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Устройства вывода информации</h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.5rem;">Это устройства, которые преобразуют информацию из формы понятной компьютеру в форму, понятную человеку.&nbsp;</span>
+            <span style="font-weight: 700; font-size: 1.5rem;">К таким устройствам относятся:</span>
+          </p>
+          <ul>
+            <li>
+              <span style="font-weight: 700; font-size: 1.5rem;">Монитор</span>
+            </li>
+            <li>
+              <span style="font-weight: 700; font-size: 1.5rem;">Принтер</span>
+            </li>
+            <li>
+              <span style="font-weight: 700; font-size: 1.5rem;">Плоттер</span>
+            </li>
+            <li>
+              <span style="font-weight: 700; font-size: 1.5rem;">Акустические колонки и наушники.</span>
+            </li>
+          </ul>
+        </div>
+        <h4 class="u-align-center u-text u-text-2">
+          <span style="text-decoration: underline !important; font-style: italic;"><b>Функции и назначение
+внутренних и внешних устройств компьютера</b>
+          </span>
+        </h4>
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1"></div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2"></div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-3"></div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-4"></div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-5"></div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-6"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-6" id="sec-1dbf">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1>Основные внутренние компоненты компьютера</h1>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Рассмотрим устройства, которые входят в системный блок. К ним относятся:</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Материнская плата. Это плата, к которой подсоединены все устройства системного блока. Через неё происходит обмен информацией между устройствами и питание электроэнергией.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/1888472497_w640_h640_materinskaya-plata-intel1.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Центральный процессор.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/20201021_chto_takoe_cpu_5.png" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Процессор — это важнейшее устройство компьютера, его мозг, он предназначен для выполнения вычислений и исполнения программ.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Процессор строит свою работу следующим образом:</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">1) получает данные, то есть считывает из оперативной памяти команды;</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">2)анализирует их;</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">3)затем выполняет;</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">4)отправляет результаты работы на требуемое устройство.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Основные характеристики процессора, определяющие его быстродействие: тактовая частота и разрядность.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Процессор обрабатывает поступающие к нему электрические сигналы (импульсы).</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Промежуток времени между двумя последовательными электрическими импульсами называется тактом. На выполнение процессором каждой операции выделяется определённое количество тактов.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Тактовая частота — это число тактов, которые процессор выполняет за одну секунду. Различные операции могут занимать один или несколько тактов. Тактовая частота измеряется в герцах.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">У современных процессоров тактовая частота достигает нескольких миллиардов герц. Поэтому её измеряют в производных единицах:</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">1 МГц = 1000000 Гц</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">1 ГГц = 1000000000 Гц</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Процессоры выполняют операции не над десятичными числами, а над двоичными. Как вы помните двоичные числа записываются цифрами 0 и 1, которым соответствуют единицы информации, называемые битами.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Разрядность процессора — это количество двоичных цифр (битов), которые одновременно обрабатывает процессор.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2">Большинство современных процессоров имеет разрядность 32 бит или 64 бит.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Оперативная память.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/2205447889_ddr3-16gb-1333mhz.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p id="isPasted">
+            <span class="u-text-palette-5-dark-2" style="font-size: 1.25rem; font-weight: 700;">Оперативная память (ОЗУ — оперативное запоминающее устройство) предназначена для хранения данных и программ во время их выполнения.</span>
+          </p>
+          <p>
+            <span style="font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2" style="font-weight: 700;">Обмен данными между процессором и оперативной памятью выполняется за очень короткие промежутки времени. Информация в оперативную память поступает после включения компьютера, а при его выключении не сохраняется.</span>
+            </span>
+          </p>
+          <p id="isPasted">
+            <span style="font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2" style="font-weight: 700;">ОЗУ представляет собой набор микросхем, которые собраны в модули. Для установки модулей на материнской плате имеются соответствующие разъёмы.</span>
+            </span>
+          </p>
+          <p>
+            <span style="font-size: 1.25rem;">
+              <span class="u-text-palette-5-dark-2" style="font-weight: 700;">Для постоянного хранения информации даже при выключенном компьютере предназначено постоянное запоминающее устройство (ПЗУ).</span>
+            </span>
+          </p>
+          <p>
+            <span class="u-text-palette-5-dark-2" style="font-weight: 700; font-size: 1.25rem;">Хранимые в ПЗУ данные и программы обеспечивают запуск компьютера и работу с клавиатурой, монитором и другими устройствами.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Жёсткий диск, это магнитный диск, который защищён герметичным корпусом. Основная функция жёсткого диска – хранение информации, то есть здесь хранятся все программы необходимые для работы компьютера и все личные файлы пользователя.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/product_image_290367_2935960.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span class="u-text-palette-5-dark-2" style="font-weight: 700; font-size: 1.25rem;">Основным устройством долговременного хранения информации является накопитель на жёстких магнитных дисках (винчестер). Он представляет собой набор вращающихся дисков с магнитным покрытием, у поверхности которых расположены головки для записи — чтения. Винчестер является энергонезависимым, перезаписываемым запоминающим устройством. Он является основным носителем данных практически во всех современных компьютерах. Обычно находится внутри системного блока.</span>
+          </p>
+          <p id="isPasted" style="text-align: center;">
+            <span style="font-weight: 700; font-style: italic;">За единицу измерения объёма информации принят байт. Ёмкость носителей измеряют в производных единицах.</span>
+          </p>
+          <p style="text-align: center;">
+            <span style="font-weight: 700; font-style: italic;">1 Кбайт = 1024 байт</span>
+          </p>
+          <p style="text-align: center;">
+            <span style="font-weight: 700; font-style: italic;">1 Мбайт = 1024 Кбайт</span>
+          </p>
+          <p style="text-align: center;">
+            <span style="font-weight: 700; font-style: italic;">1 Гбайт = 1024 Мбайт</span>
+          </p>
+          <p style="text-align: center;">
+            <span style="font-weight: 700; font-style: italic;">1 Тбайт = 1024 Гбайт.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Дисковод и накопитель – это специальное устройство для чтения или записи на оптические диски CD, DVD.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/907920608-0.jpeg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <br>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Видеокарта. Она передаёт изображение на монитор</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/videokarta-msi-geforce-gtx-1660-ti-gaming-x-6gb-4.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Звуковая карта – передаёт звук на колонки, а также подготавливает звук для записи с микрофона.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/17855715.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Сетевая карта. Её функция — соединять компьютер с другими компьютерами по сети.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/645768_r4052.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· &nbsp;Блок питания – служит для преобразования тока электрической сети в ток, необходимый для питания внутренних частей компьютера.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/6131029123.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Порты компьютера – специальные разъёмы, через которые можно подключить внешние устройства.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/-128273572.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <br>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-7" id="sec-7a45">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Основные внешние устройства компьютера</h1>
+          <p id="isPasted">
+            <br>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">К системному блоку подключаются внешние устройства компьютера – устройства ввода и вывода информации.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">Устройства ввода переводят человеческий язык в компьютерный, а устройства вывода наоборот компьютерный язык переводят в человеческий.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem; text-decoration: underline;">К устройствам ввода информации относятся:</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">1.Клавиатура. Она служит для ввода в компьютер текстовой информации и команд управления при помощи клавиш.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/13.jpg" width="570" style="width: 570px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">2. Манипуляторы, например, мышь, джойстик и другие. Это специальные устройства, которые используются для управления курсором.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Мышь перемещает указатель мыши по экрану и вводит команды пользователя. Управление курсором осуществляется путём перемещения мыши по поверхности стола или коврика для мыши. Клавиши и колёсико мыши вызывают определённые действия, например, активация указанного объекта, вызов контекстного меню, вертикальная прокрутка веб-страниц и электронных документов.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/parent-computer-mouse-computer-keyboard-personal-computer-rgb-color-model-computer-mouse-game-electronics-computer-keyboard.png" width="570" style="width: 324px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">· Джойстик – это стержень-ручка, отклонение которой от вертикального положения приводит к передвижению курсора в соответствующем направлении по экрану монитора. Часто применяется в компьютерных играх.</span>
+          </p>
+          <p>
+            <img src="images/img_0_32447_15_2.jpg" width="570" style="width: 370px;" class="fr-dib fr-fic">
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">3.Сканер – устройство для ввода графической информации в компьютер.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/WideTEK-12.jpg" width="570" style="width: 478px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">4. Микрофон – устройство для ввода звуковой информации.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/H2266dba07dee42589b6913aa9f1e4bdeL.jpg" width="570" style="width: 451px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">5. Веб-камера – видео- или фотокамера, способная в реальном времени фиксировать изображения, предназначенные для дальнейшего использования.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/41ffbec1-d9b5-4899-8630-0d60a832e09d.11d1dc7211bb5847ea86d0870b882a5a.jpeg" width="570" style="width: 367px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem; text-decoration: underline;">К устройствам вывода относятся:</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">1. Монитор служит для вывода информации пользователю на экран.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/907920608-01.jpeg" width="570" style="width: 439px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">2. Принтер – устройство для вывода информации на бумагу.</span>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/71TZnqy6AJL._AC_SL1500_.jpg" width="570" style="width: 472px;" class="fr-dib fr-fic">
+            </span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">3. Звуковые колонки и наушники предназначены для воспроизведения звуковой информации.</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.5rem;">
+              <img src="images/140.jpg" width="570" style="width: 450px;" class="fr-dib fr-fic">
+            </span>
+            <br>
+          </p>
+          <p style="margin-bottom:0cm;margin-bottom:.0001pt;text-indent:  35.45pt;line-height:normal;background:white;vertical-align:baseline;">
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-26da"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      
+    </section><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
+        <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
+    </span>
+  </body>
+</html>

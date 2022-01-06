@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="​Файлы и файловая структура, ​​
+Вам уже известно, что в виде файлов на
+устройствах внешней памяти компьютера хранится все программное обеспечение
+компьютера и все данные.&nbsp;Любому пользователю, работающему на компьютере,
+приходится иметь дело с файлами, поэтому очень важно уметь работать с ними.&nbsp;Работа с файлами на компьютере
+производится с помощью файловой системы, которая является частью операционной
+системы., Файлы, ​Требования к именам файлов семейства
+Windows, Расширения файлов, ​Файловая система, Пример, Путь к файлу">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Тема 2</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="Тема-2.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/default-logo.png"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="Тема 2">
+    <meta property="og:type" content="website">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-sticky u-sticky-b1a9 u-header" id="sec-fa6b"><div class="u-clearfix u-sheet u-sheet-1">
+        <a  class="u-image u-logo u-image-1">
+          <img  class="u-logo-image u-logo-image-1">
+        </a>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+            <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-text-shadow u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-spacing-30 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Главная.html" style="padding: 10px 0px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Контакты.html" style="padding: 10px 0px;">Контакты</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-1.html" style="padding: 10px 0px;">Тема 1</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-2.html" style="padding: 10px 0px;">Тема 2</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Тема-3.html" style="padding: 10px 0px;">Тема 3</a>
+</li><li class="u-nav-item"><a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-base u-border-no-left u-border-no-right u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-grey-90 u-text-hover-grey-90" href="Практические-задания.html" style="padding: 10px 0px;">Практические задания</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Главная.html" style="padding: 10px 20px;">Главная</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Контакты.html" style="padding: 10px 20px;">Контакты</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-1.html" style="padding: 10px 20px;">Тема 1</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-2.html" style="padding: 10px 20px;">Тема 2</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Тема-3.html" style="padding: 10px 20px;">Тема 3</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Практические-задания.html" style="padding: 10px 20px;">Практические задания</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256" data-image-height="256" id="sec-b540">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"><b>Файлы и файловая структура</b>
+        </h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">
+          <br>
+          <span style="font-weight: 700; font-size: 2.25rem;">На этом уроке мы узнаем&nbsp; что такое файл, ярлык, папка (каталог) и
+познакомимся с файловыми системами.</span>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-2" id="sec-16d6">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1"> Вам уже известно, что в виде файлов на
+устройствах внешней памяти компьютера хранится все программное обеспечение
+компьютера и все данные.<br>&nbsp;Любому пользователю, работающему на компьютере,
+приходится иметь дело с файлами, поэтому очень важно уметь работать с ними.&nbsp;<br>Работа с файлами на компьютере
+производится с помощью файловой системы, которая является частью операционной
+системы.&nbsp;
+        </h2>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-3" id="sec-450f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h1 class="u-text u-text-default u-text-1">Файлы</h1>
+        <p class="u-text u-text-2"> Все программы и данные хранятся в
+долговременной<span style="font-size: 1.5rem;"></span> (внешней) памяти компьютера в виде файлов. &nbsp;(от англ.слова file - досье, набор документов)&nbsp;<br>Имя файла состоит из двух частей,
+разделенных точкой:&nbsp;<br><i><u>имя файла(до 255
+символов)</u></i> и<u><i>расширение(3
+символа)</i></u>, &nbsp; &nbsp;<br>&nbsp;&nbsp;<!--[endif]-->Расширение
+определяет его тип (программа, данные и т. д.). Расширение
+указывает на тип файла, или какого типа информация хранится в файле. <!--[if !supportLists]-->·&nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp;&nbsp;<!--[endif]-->Имя
+файлу дает пользователь, а тип файла обычно задается программой автоматически
+при его создании.&nbsp;<br>
+          <span style="font-style: italic; text-decoration: underline !important; font-size: 2.25rem;">
+            <span style="font-size: 1.875rem;"><b>Пример:
+proba.txt</b>&nbsp;&nbsp; 
+            </span>
+          </span>
+          <br>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-4" src="" data-image-width="256" data-image-height="256" id="sec-2d9c">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"> Требования к именам файлов семейства
+Windows&nbsp;</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2"><!--[if !supportLists]-->1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--[endif]-->Разрешается использовать до 255
+символов.&nbsp;<br>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--[endif]-->Разрешается использовать символы
+национальных алфавитов, в частности русского.&nbsp;<br>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--[endif]-->Разрешается использовать пробелы и
+другие символы, за исключением следующих девяти:&nbsp;<br><b>/\ : * ? " &lt; &gt; |</b>&nbsp;<br>4.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--[endif]-->В имени файла можно использовать
+несколько точек. Расширением имени считаются все символы, стоящие за последней
+точкой.
+        </p>
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-section-5" id="sec-fdcb">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-default u-text-1">Расширения файлов</h2>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="50%">
+              <col width="50%">
+            </colgroup>
+            <thead class="u-black u-table-header u-table-header-1">
+              <tr style="height: 21px;">
+                <th class="u-border-1 u-border-black u-table-cell">Тип файла</th>
+                <th class="u-border-1 u-border-black u-table-cell">Расширение</th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 62px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-3"> Исполняемые
+  программы </td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-4"> exe, com </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-5">Текстовые
+  файлы&nbsp;</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-6"> txt, rtf,
+  doc </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-7"> Графические
+  файлы </td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-8"> bmp, gif,
+  jpg, png, pds и др. </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-9"> Звуковые
+  файлы&nbsp;</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-10"> wav, mp3
+  
+ 
+ 
+  
+  &nbsp;</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-11">Видеофайлы </td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-12">avi,
+  mpeg </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-13">Код (текст)
+  программы на языках программирования</td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell u-table-cell-14">bas, pas, cpp</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-6" id="sec-a61c">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-1">
+                <p class="u-text u-text-1">
+                  <span style="text-decoration: underline !important;"> Папка </span>– это объект Windows,
+предназначенное для объединения файлов и других папок в группы.<b></b>&nbsp;&nbsp;&nbsp;
+                </p>
+                <div class="u-shape u-shape-svg u-text-palette-1-base u-shape-1">
+                  <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-9c5a"></use></svg>
+                  <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-9c5a" style="enable-background:new 0 0 160 160;"><g><g><path d="M80,0C35.9,0,0,35.9,0,80s35.9,80,80,80s80-35.9,80-80S124.1,0,80,0z M124.7,58.9l-51.1,50.7c-3,3-7.8,3.2-11,0.2
+			L35.5,85.1c-3.2-3-3.4-8-0.6-11.2c3-3.2,8-3.4,11.2-0.4l21.5,19.6l45.7-45.7c3.2-3.2,8.2-3.2,11.4,0
+			C127.9,50.7,127.9,55.7,124.7,58.9z"></path>
+</g>
+</g></svg>
+                </div>
+              </div>
+            </div>
+            <div class="u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-container-layout-2">
+                <p class="u-text u-text-2">
+                  <span style="text-decoration: underline !important;"> Ярлык</span> - это
+ссылка на тот или иной файл, которая дает команду к запуску этого файла. 
+                </p>
+                <div class="u-shape u-shape-svg u-text-palette-1-base u-shape-2">
+                  <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-c5f9"></use></svg>
+                  <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-c5f9" style="enable-background:new 0 0 160 160;"><g><g><path d="M80,0C35.9,0,0,35.9,0,80s35.9,80,80,80s80-35.9,80-80S124.1,0,80,0z M124.7,58.9l-51.1,50.7c-3,3-7.8,3.2-11,0.2
+			L35.5,85.1c-3.2-3-3.4-8-0.6-11.2c3-3.2,8-3.4,11.2-0.4l21.5,19.6l45.7-45.7c3.2-3.2,8.2-3.2,11.4,0
+			C127.9,50.7,127.9,55.7,124.7,58.9z"></path>
+</g>
+</g></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="u-large-text u-text u-text-default u-text-variant u-text-3"> Кликая по ярлыку, пользователь дает
+команду запустить файл, на который данный ярлык ссылается. Если для папки
+сделать ярлык и поместить его, допустим на «рабочий стол», то при двойном клике
+по нему откроется эта папка.&nbsp;<br>Если удалить ярлык, программа или файл (папка)
+останется и будет абсолютно работоспособной, т.к. ярлыки не влияют на работу
+программ или определенные файлы, они дают команду к запуску. Любой файл можно
+запустить и без ярлыка.&nbsp;<br>При перемещении файла, на который ссылается ярлык,
+ярлык перестает работать.
+        </p>
+        <img class="u-image u-image-default u-image-1" src="images/Tanvr-JzhLg.jpg" alt="" data-image-width="561" data-image-height="269">
+      </div>
+    </section>
+    <section class="u-align-center u-clearfix u-image u-shading u-section-7" src="" data-image-width="256" data-image-height="256" id="sec-37d5">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-text-default u-title u-text-1"><b>Файловая система</b>
+        </h1>
+        <p class="u-large-text u-text u-text-variant u-text-2"> На каждом
+носителе информации (гибком, жестком или лазерном диске) может храниться
+большое количество файлов. Порядок хранения файлов на диске определяется
+установленной файловой системой.&nbsp;</p>
+      </div>
+    </section>
+    <section class="u-clearfix u-grey-5 u-section-8" id="sec-91e3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1">Файловая система</h3>
+        <p class="u-text u-text-2"> Это система хранения файлов и
+организации каталогов.
+Для дисков с небольшим количеством
+файлов (до нескольких десятков) удобно применять одноуровневую файловую
+систему, когда каталог (оглавление диска) представляет собой линейную
+последовательность имен файлов. Для отыскания файла на диске достаточно указать
+лишь имя файла.</p>
+        <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/1.jpg" alt="" data-image-width="170" data-image-height="76">
+        <p class="u-large-text u-text u-text-variant u-text-3">
+          <span style="font-weight: 700;">Если на диске хранятся сотни и тысячи
+файлов, то для удобства поиска файлы организуются в многоуровневую файловую
+систему, которая имеет «древовидную» структуру (имеет вид перевернутого
+дерева). Представляет собой систему вложенных
+папок. В каждой папке могут храниться папки нижнего уровня и файлы.</span>
+        </p>
+        <img class="u-image u-image-default u-image-2" src="images/2.jpg" alt="" data-image-width="960" data-image-height="720">
+        <p class="u-large-text u-text u-text-variant u-text-4">
+          <span style="font-weight: 700;">Начальный, корневой, каталог содержит
+вложенные каталоги 1-го уровня, в свою очередь, в каждом из них бывают
+вложенные каталоги 2-го уровня и т. д. Необходимо отметить, что в каталогах
+всех уровней могут храниться и файлы.</span>
+        </p>
+        <img class="u-image u-image-default u-preserve-proportions u-image-3" src="images/31.jpg" alt="" data-image-width="182" data-image-height="143">
+        <p class="u-large-text u-text u-text-variant u-text-5"> Каждый диск имеет логическое имя, обозначаемое латинской буквой с
+двоеточием: &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>А:, В: - гибкие диски; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp;С: - жесткий диск;&nbsp;<br>D:, Е: - лазерные диски<br>Папкой верхнего уровня для диска является корневая папка (или
+корневой каталог), которая обозначается с добавлением знака \. Например: А:\<br>
+        </p>
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-9" id="sec-b16b">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">
+            <span style="line-height: 2.0;">Пример</span>
+          </h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.25rem;">Полную картину файловой структуры представьте себе так: вся внешняя память компьютера — это шкаф с множеством выдвижных ящиков. Каждый ящик — аналог диска; в ящике — большая папка (корневой каталог); в этой папке множество папок и документов (подкаталогов и файлов) и т.д. Самые глубоко вложенные папки хранят в себе только документы (файлы) или могут быть пустыми.</span>
+          </p>
+        </div>
+        <img class="u-image u-image-default u-image-1" src="images/41.jpg" alt="" data-image-width="960" data-image-height="720">
+      </div>
+    </section>
+    <section class="u-align-left u-clearfix u-section-10" id="sec-b53f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
+          <h1 style="text-align: left;">Путь к файлу</h1>
+          <p id="isPasted">
+            <span style="font-weight: 700; font-size: 1.25rem;">Начинается с логического имени диска, затем записывается последовательность имен вложенных друг в друга папок, в последней из которых содержится нужный файл. Имена дисков записываются через разделитель «\».</span>
+          </p>
+          <p>
+            <span style="font-weight: 700; font-size: 1.25rem;">Путь к файлу вместе с именем файла называют полным именем файла.</span>
+          </p>
+          <ul>
+            <li style="font-weight: 700; font-size: 1.25rem;">C:\Рефераты\Физика\Оптические явления.doc</li>
+            <li style="font-weight: 700; font-size: 1.25rem;">C:\Рефераты\Информатика\Интернет.doc</li>
+            <li style="font-weight: 700; font-size: 1.25rem;">C:\Рефераты\Информатика\Компьютерные вирусы.doc</li>
+            <li style="font-weight: 700; font-size: 1.25rem;">C:\Рисунки\Закат.jpg</li>
+            <li style="font-weight: 700; font-size: 1.25rem;">C:\Рисунки\ Зима.jpg</li>
+          </ul>
+        </div>
+        <img class="u-image u-image-default u-image-1" src="images/6.png" alt="" data-image-width="367" data-image-height="232">
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-26da"><div class="u-align-left u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      
+    </section><span style="height: 64px; width: 64px; margin-left: 0px; margin-right: auto; margin-top: 0px; background-image: none; right: 20px; bottom: 20px" class="u-back-to-top u-icon u-icon-circle u-opacity u-opacity-85 u-palette-1-base u-spacing-15" data-href="#">
+        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 551.13 551.13"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1d98"></use></svg>
+        <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
+    </span>
+  </body>
+</html>
